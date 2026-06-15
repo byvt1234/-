@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+}
+
+body {
+    font-family: 'GMarketSans';
+    background-color: #999;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background {
+    margin-top: 100px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+
+    background-color: orange;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: darkorange;
+}
