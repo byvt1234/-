@@ -61,7 +61,8 @@ h3 {
     }
 
     .button {
-        width: 80%;
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -71,7 +72,7 @@ h3 {
         font-size: 14px;
     }
     .button {
-        width: 90%;
-        align-items: center;
+        display: flex;
+        justify-content: center;
     }
 }
